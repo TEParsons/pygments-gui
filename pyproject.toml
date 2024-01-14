@@ -6,10 +6,12 @@ authors = [
 ]
 keywords = ["pygments", "gui", "wx", "pyqt"]
 readme = "README.md"
+classifiers = [
+  "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+]
 dependencies = [
   "pygments"
 ]
-license = "CC-BY-SA-2.0-UK"
 
 [project.urls]
 "Homepage" = "https://github.com/pypa/sampleproject"

@@ -1,0 +1,7 @@
+desktop.ini
+.venv*
+venv*
+scratch.py
+*.egg-info
+.pytest_cache
+__pycache__

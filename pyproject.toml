@@ -1,0 +1,28 @@
+[project]
+name = "pygments-gui"
+version = "1.0.0"
+authors = [
+  "Todd Parsons <todd.e.parsons@gmail.com>"
+]
+keywords = ["pygments", "gui", "wx", "pyqt"]
+readme = "README.md"
+dependencies = [
+  "pygments"
+]
+license = "CC-BY-SA-2.0-UK"
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Reports" = "https://github.com/pypa/sampleproject/issues"
+"Funding" = "https://donate.pypi.org"
+"Say Thanks!" = "http://saythanks.io/to/example"
+"Source" = "https://github.com/pypa/sampleproject/"
+
+[project.optional-dependencies]
+wx = ["wxPython"]
+pyqt4 = ["PyQt5"]
+pyqt5 = ["PyQt5"]
+pyqt6 = ["PyQt6"]
+
+[project.entry-points.'pygments.formatters']
+WxRichTextCtrlFormatter = 'pygments_gui.wx.richtext:WxRichTextCtrlFormatter'

@@ -14,7 +14,7 @@ except ImportError:
     wx = MissingPackage(pkg="wxPython", context="pygments-gui.wx")
 
 
-__all__ = ["WxRichTextCtrlFormatter", "PygmentsRichTextCtrl"]
+__all__ = ["WxRichTextCtrlFormatter"]
 
 
 class WxRichTextCtrlFormatter(Formatter):

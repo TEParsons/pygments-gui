@@ -1,11 +1,12 @@
 [project]
 name = "pygments-gui"
+description = "Formatters for continuously formatting the contents of GUI elements"
 version = "1.0.0"
 authors = [
-  "Todd Parsons <todd.e.parsons@gmail.com>"
+  {name = "Todd Parsons", email = "todd.e.parsons@gmail.com"}
 ]
 keywords = ["pygments", "gui", "wx", "pyqt"]
-readme = "README.md"
+readme = {file = "README.md", content-type = "text/markdown"}
 classifiers = [
   "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
 ]
